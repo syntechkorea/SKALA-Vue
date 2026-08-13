@@ -4,7 +4,7 @@ SK AX Full-Stack Engineering (Frontend: Vue.js) 종합실습 과제입니다. 4�
 
 ## 배포 주소
 
-- <https://계정명.github.io/skala-vue/> _(배포 후 실제 주소로 교체)_
+- <https://syntechkorea.github.io/SKALA-Vue/>
 
 ## 기술 스택
 
