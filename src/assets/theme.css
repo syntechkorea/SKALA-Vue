@@ -1,0 +1,44 @@
+/* 최종 탭(및 앱 공통) 디자인 토큰. 라이트 전용 — base.css의 다크모드 블록과는 무관하며 건드리지 않는다.
+   색상/여백/반경/그림자를 흩어진 하드코딩 값 대신 하나의 팔레트로 모은다. */
+:root {
+  /* 브랜드 프라이머리 — 네이비/블루. 경로 날씨(Tmap)의 레드와 의도적으로 구분된다. */
+  --brand-primary: #1e40af;
+  --brand-primary-hover: #6279c7;
+  --brand-primary-active: #18338c;
+  --brand-primary-soft: #e9ecf7;
+
+  /* 뉴트럴 스케일 */
+  --surface-page: #f5f7fa;
+  --surface-card: #ffffff;
+  --surface-muted: #f8f9fa;
+  --border-subtle: #e9ecef;
+  --border-default: #dee2e6;
+  --text-primary: #2c3e50;
+  --text-secondary: #64748b;
+  --text-muted: #95a5a6;
+
+  /* 시맨틱 컬러 */
+  --color-success: #67c23a;
+  --color-success-soft: #e8f5e9;
+  --color-warning: #e6a23c;
+  --color-danger: #f56c6c;
+  --color-info: #909399;
+
+  /* 8pt 여백 스케일 */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  /* 반경 스케일: 기존 4/6/8/12px 난립을 3단계로 정리 */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-pill: 999px;
+
+  /* 엘리베이션 */
+  --shadow-resting: 0 2px 8px rgba(15, 23, 42, 0.06);
+  --shadow-raised: 0 8px 24px rgba(15, 23, 42, 0.12);
+}

@@ -1,0 +1,21 @@
+/* Tmap 브랜드 레드 테마 토큰. .route-weather-view 아래에만 스코프하여
+   WeatherParent(과제3)/WeatherHomeView 등 다른 화면의 BaseDashboardCard/버튼에는 영향을 주지 않는다. */
+.route-weather-view {
+  --tmap-red: #e71e38;
+  --tmap-red-soft: #fdecee;
+  --tmap-red-dark: #b8152c;
+
+  /* 최종 탭은 .app-final에서 Element Plus 프라이머리를 네이비로 오버라이드해뒀다.
+     경로 날씨는 그 자손이지만 Tmap 기능이므로 이 안에서만 다시 레드로 재오버라이드한다. */
+  --el-color-primary: var(--tmap-red);
+  --el-color-primary-light-3: #ee6478;
+  --el-color-primary-light-5: #f393a1;
+  --el-color-primary-light-7: #f7bcc4;
+  --el-color-primary-light-8: #fad3d9;
+  --el-color-primary-light-9: var(--tmap-red-soft);
+  --el-color-primary-dark-2: var(--tmap-red-dark);
+}
+
+.route-weather-view .tmap-card {
+  border-left: 4px solid var(--tmap-red);
+}
